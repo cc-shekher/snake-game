@@ -33,6 +33,10 @@ A classic Snake game built with HTML5 Canvas, CSS, and JavaScript. Play on both 
 
 ## Getting Started
 
+### Option 1: Play Online
+🎮 **[Play Now](https://cc-shekher.github.io/snake-game/snake.html)** - No download required!
+
+### Option 2: Play Locally
 1. Download or clone this repository
 2. Open `snake.html` in any modern web browser
 3. Start playing!
@@ -54,4 +58,3 @@ Works on all modern browsers including:
 - Mobile browsers (iOS Safari, Chrome Mobile, etc.)
 
 Enjoy the game! 🎮
-
