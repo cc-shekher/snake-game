@@ -96,40 +96,10 @@
             opacity: 0.8;
         }
 
-        /* Mobile controls */
+        /* Mobile controls - hidden since swipe works well */
         .mobile-controls {
             display: none;
-            margin-top: 20px;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            gap: 10px;
-            max-width: 200px;
-            margin-left: auto;
-            margin-right: auto;
         }
-
-        .control-btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            font-size: 1.5em;
-            padding: 15px;
-            border-radius: 10px;
-            cursor: pointer;
-            user-select: none;
-            transition: all 0.2s;
-            touch-action: manipulation;
-        }
-
-        .control-btn:active {
-            background: rgba(255, 255, 255, 0.4);
-            transform: scale(0.95);
-        }
-
-        .control-btn:nth-child(1) { grid-column: 2; grid-row: 1; } /* Up */
-        .control-btn:nth-child(2) { grid-column: 1; grid-row: 2; } /* Left */
-        .control-btn:nth-child(3) { grid-column: 3; grid-row: 2; } /* Right */
-        .control-btn:nth-child(4) { grid-column: 2; grid-row: 3; } /* Down */
 
         /* Mobile responsive */
         @media (max-width: 768px) {
@@ -224,7 +194,7 @@
             🍎 Eat the red food to grow and score points<br>
             🌀 Pass through walls to teleport to the other side<br>
             💀 Don't hit yourself!<br>
-            <span class="mobile-only" style="display: none;">👆 Use buttons above or swipe on game area</span>
+            <span class="mobile-only" style="display: none;">👆 Swipe on game area to control</span>
         </div>
     </div>
 
